@@ -6,8 +6,8 @@ First lessons about the frontend
 - JavaScript - [click here](https://1drv.ms/p/s!ApfAMuMbRnyEohRAC15WlPdqJdk3?e=TW6qiu)
 
 #### Repo:
-ssh: git@github.com:dirico-oradea/html-css-javacript.git
-http: https://github.com/dirico-oradea/html-css-javacript.git
+- ssh: git@github.com:dirico-oradea/html-css-javacript.git
+- http: https://github.com/dirico-oradea/html-css-javacript.git
 
 #### What to do:
 - login with your github account and fork this repo (right - top corner)
