@@ -12,10 +12,5 @@ First lessons about the frontend
 #### What to do:
 - login with your github account and fork this repo (right - top corner)
 - clone your repository
-- create a new branch with your name (ex. **git checkout -b kZoltan**)
-- you can work here
-
-#### Pull reuqest flow
-- commit & push your changes into your forked repository
-- open your repo (ex. https://github.com/shadowvzs/html-css-javacript/pulls)
-- click to 2nd tab (**Pull requests**) then click to **New pull request**
+- you can work on it
+- when you done with changes just commit & push it
