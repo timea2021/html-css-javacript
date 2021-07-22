@@ -1,0 +1,25 @@
+dl {
+    width: 50%;
+    margin: 0 auto;
+}
+dt {
+    font-weight: bold;
+    vertical-align: top;
+    width: 50%;
+    float: left;
+    clear: left;
+}
+dd {
+    width: 50%;
+    float: left;
+    margin: 0;
+    vertical-align: top;
+}
+.details:nth-child(2) {
+    background: #f4f4f4;
+}
+
+
+.altrow {
+    background: #f4f4f4;
+}

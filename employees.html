@@ -30,6 +30,7 @@
         <ul class="menu">
             <li><a href="index.html">Home</a></li>
             <li>Employees</li>
+            <li><a href="contacts.html">Contact Us</a></li>
         </ul>
     </div>
     <div id="content">
@@ -44,25 +45,25 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Don Joe</td>
+                <td><a href="joedetails.html">Don Joe</a></td>
                 <td>Director</td>
                 <td class="salary">500</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Lakatos Romeo</td>
+                <td><a href="romeodetails.html">Lakatos Romeo</a></td>
                 <td>CTO</td>
                 <td class="salary">450</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Brendon</td>
+                <td><a href="brendondetails.html">Brendon</a></td>
                 <td>HR manager</td>
                 <td class="salary">400</td>
             </tr>
             <tr>
-                <td>3</td>
-                <td>Pista</td>
+                <td>4</td>
+                <td><a href="pistadetails.html">Pista</a></td>
                 <td>Stock manager</td>
                 <td class="salary">400</td>
             </tr>
@@ -84,10 +85,18 @@
             <label for="salary">Salary</label>
             <input type="text" id="fsalary" name="salary" placeholder="Salary...">
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" onclick="showEmployeeData()">
 
         </form>
 
+        <hr>
+        
+        <div>
+            <input type="text" id="employee" name="employee">
+            <input type="submit" value="Click here" onclick="showEmployee()">
+        </div>
+        <table style="display: inline-block; margin-top:15px;" id="employeelist">
+        </table>
     </div>
 </body>
 
