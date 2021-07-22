@@ -815,6 +815,18 @@
              "maria.lyman@gmail.com",
              "jasmine.grant@gmail.com"
           ]
+       },
+       "salary":{
+          "int":{
+             "min":200,
+             "max":2000
+          }
+       },
+       "createdAt":{
+           "int": {
+                "min":1543622400000,
+                "max":"1638316800000
+           }
        }
     }
  }
